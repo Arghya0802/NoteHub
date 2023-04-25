@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Arghya Keep</title>
+</head>
+
+<body>
+    <!-- <div class="main-div"> -->
+        <nav class="nav-bar">
+            <div class="Logo">
+                <!-- <ion-icon name="logo-google"></ion-icon> -->
+                <ion-icon name="folder-outline"></ion-icon>
+                <p id="id">NoteHub</p>
+            </div>
+            <ul class="temp">
+                <!-- <li class="active">Home</li>
+                <li class="active">About</li>
+                <li class="active">Contact Us</li>
+                <li class="active">Disclaimer</li> -->
+                 <li class="temp"> 
+                    <input type="text" placeholder="Search" class="search-box" onclick="incWidth()">
+                    <ion-icon name="search-outline" class="search-btn"></ion-icon>
+                </li>
+                <li class="temp">
+                    <div class="toggle-btn">
+                        <input type="checkbox" id="checkbox">
+                        <label for="checkbox" class="toggle-label">
+                            <span class="toggle-ball"></span>
+                        </label>
+                    </div>
+                </li>
+                
+            </ul>
+            
+        </nav>
+
+        <div class="add-notes">
+            <!-- <h2>Add Notes</h2> -->
+            <ion-icon name="add-outline" class="add"></ion-icon>
+            <button class="add-notes-btn" id="add">Add Notes</button>
+        </div>
+        <div class="notes-div" id="notes-div"> </div>
+
+    <!-- </div> -->
+              
+            <!-- <label class="switch">
+                <input type="checkbox" id="themeSwitch">
+                <span class="slider"></span>
+                <ion-icon name="moon-outline"></ion-icon><
+              </label> -->
+              
+           <!-- </div>
+        </nav>
+    </div> -->
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js">  </script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
