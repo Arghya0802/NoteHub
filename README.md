@@ -1,6 +1,7 @@
 # NoteHub
-This is a simple Google Keeps Clone created using HTML, CSS and JavaScript. It allows you to add, edit, and delete notes just like in the original Google Keeps.
+NoteHub is a simple Google Keep clone that allows you to create, read, update, and delete notes using HTML, CSS, and JavaScript. With NoteHub, you can easily manage your notes and keep your life organized.
 
+Link for the app : https://notehubs.netlify.app/
 # Features
 - Add new notes
 - Edit existing notes
